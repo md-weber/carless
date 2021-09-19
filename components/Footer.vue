@@ -34,7 +34,7 @@
                   <a
                     href="/admin"
                     target="_blank"
-                    rel="nofollow⁄"
+                    rel="nofollow"
                     class="text-base leading-6 text-gray-300 hover:text-white"
                   >
                     Admin

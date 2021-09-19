@@ -6,7 +6,18 @@
       :image="page.image"
     />
     <div
-      class="px-8 mx-auto mt-12 prose sm:px-6 md:px-4 lg:px-2 xl:px-0 xl:prose-xl lg:prose-lg md:prose-md"
+      class="
+        px-8
+        mx-auto
+        mt-12
+        prose
+        sm:px-6
+        md:px-4
+        lg:px-2
+        xl:px-0 xl:prose-xl
+        lg:prose-lg
+        md:prose-md
+      "
     >
       <h3>
         {{ page.mainpitch.title }}
@@ -24,7 +35,15 @@
         <div
           v-for="(blurb, index) in page.intro.blurbs"
           :key="index"
-          class="flex flex-col items-center px-6 border rounded-lg shadow justify-top"
+          class="
+            flex flex-col
+            items-center
+            px-6
+            border
+            rounded-lg
+            shadow
+            justify-top
+          "
         >
           <img class="h-32" :src="blurb.image" />
           <p class="mt-2 text-justify">{{ blurb.text }}.</p>
@@ -33,7 +52,25 @@
       <p class="text-center">
         <nuxt-link
           to="/products"
-          class="inline-flex items-center px-6 py-3 text-base font-medium leading-6 transition duration-150 ease-in-out bg-white border border-gray-300 rounded-md text-kaldi hover:text-orange-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:text-gray-800 active:bg-gray-50"
+          class="
+            inline-flex
+            items-center
+            px-6
+            py-3
+            text-base
+            font-medium
+            leading-6
+            transition
+            duration-150
+            ease-in-out
+            bg-white
+            border border-gray-300
+            rounded-md
+            text-kaldi
+            hover:text-orange-500
+            focus:outline-none focus:border-blue-300 focus:shadow-outline-blue
+            active:text-gray-800 active:bg-gray-50
+          "
         >
           See all products
         </nuxt-link>
@@ -59,7 +96,25 @@
       <p class="text-center">
         <nuxt-link
           to="/blog"
-          class="inline-flex items-center px-6 py-3 text-base font-medium leading-6 transition duration-150 ease-in-out bg-white border border-gray-300 rounded-md text-kaldi hover:text-orange-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:text-gray-800 active:bg-gray-50"
+          class="
+            inline-flex
+            items-center
+            px-6
+            py-3
+            text-base
+            font-medium
+            leading-6
+            transition
+            duration-150
+            ease-in-out
+            bg-white
+            border border-gray-300
+            rounded-md
+            text-kaldi
+            hover:text-orange-500
+            focus:outline-none focus:border-blue-300 focus:shadow-outline-blue
+            active:text-gray-800 active:bg-gray-50
+          "
         >
           Read more
         </nuxt-link>

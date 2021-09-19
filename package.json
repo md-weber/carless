@@ -1,8 +1,8 @@
 {
   "name": "nuxt-starter-netlify-cms",
   "version": "1.0.1",
-  "description": "Example Nuxt, and Netlify CMS project",
-  "author": "Luke Oliff <luke@lukeoliff.com> (https://twitter.com/lukeocodes)",
+  "description": "Blog of Carless - Can you live without a car",
+  "author": "Max Weber",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -19,10 +19,11 @@
   "dependencies": {
     "@nuxt/content": "^1.14.0",
     "@tailwindcss/typography": "^0.4.1",
-    "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "core-js": "^3.18.0",
+    "nuxt": "^2.15.8"
   },
   "devDependencies": {
+    "@nuxtjs/color-mode": "^2.1.1",
     "@nuxtjs/eslint-config": "^6.0.1",
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/tailwindcss": "^4.2.1",
@@ -39,7 +40,6 @@
     "remark-frontmatter": "^4.0.0",
     "remark-lint": "^9.1.0",
     "remark-preset-lint-consistent": "^5.1.0",
-    "remark-preset-lint-markdown-style-guide": "^5.1.0",
     "remark-preset-lint-recommended": "^6.1.0",
     "remark-preset-prettier": "^1.0.0",
     "remark-retext": "^5.0.0",
@@ -49,6 +49,7 @@
     "retext-spell": "^5.1.0",
     "retext-syntax-urls": "^3.1.1",
     "retext-usage": "^0.5.0",
+    "tailwindcss-dark-mode": "^1.1.7",
     "unified": "^10.1.0"
   },
   "keywords": [

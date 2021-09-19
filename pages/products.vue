@@ -2,7 +2,18 @@
   <div>
     <Hero :heading="page.title" :image="page.image" />
     <div
-      class="px-8 mx-auto mt-12 prose sm:px-6 md:px-4 lg:px-2 xl:px-0 xl:prose-xl lg:prose-lg md:prose-md"
+      class="
+        px-8
+        mx-auto
+        mt-12
+        prose
+        sm:px-6
+        md:px-4
+        lg:px-2
+        xl:px-0 xl:prose-xl
+        lg:prose-lg
+        md:prose-md
+      "
     >
       <h2>
         {{ page.heading }}
@@ -49,7 +60,15 @@
         <p
           v-for="(testimonial, index) in page.testimonials"
           :key="index"
-          class="inline-block w-full p-6 text-base bg-gray-100 border-l-4 border-gray-300 rounded-lg"
+          class="
+            inline-block
+            w-full
+            p-6
+            text-base
+            bg-gray-100
+            border-l-4 border-gray-300
+            rounded-lg
+          "
         >
           {{ testimonial.quote }}<br />
           –{{ testimonial.author }}
@@ -58,7 +77,18 @@
     </div>
     <Hero :image="page.full_image" />
     <div
-      class="px-8 mx-auto mt-12 prose sm:px-6 md:px-4 lg:px-2 xl:px-0 xl:prose-2xl lg:prose-xl md:prose-lg"
+      class="
+        px-8
+        mx-auto
+        mt-12
+        prose
+        sm:px-6
+        md:px-4
+        lg:px-2
+        xl:px-0 xl:prose-2xl
+        lg:prose-xl
+        md:prose-lg
+      "
     >
       <h3>
         {{ page.pricing.heading }}

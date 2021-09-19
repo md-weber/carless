@@ -66,7 +66,12 @@
         </div>
       </div>
       <div
-        class="pt-8 mt-8 border-t border-gray-700 md:flex md:items-center md:justify-between"
+        class="
+          pt-8
+          mt-8
+          border-t border-gray-700
+          md:flex md:items-center md:justify-between
+        "
       >
         <div class="flex space-x-6 md:order-2">
           <a

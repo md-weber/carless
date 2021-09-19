@@ -34,7 +34,7 @@
                   <a
                     href="/admin"
                     target="_blank"
-                    nofollow
+                    rel="nofollow⁄"
                     class="text-base leading-6 text-gray-300 hover:text-white"
                   >
                     Admin
@@ -97,8 +97,7 @@
           </a>
         </div>
         <p class="mt-8 text-base leading-6 text-gray-400 md:mt-0 md:order-1">
-          &copy; 2020 Whoever | Sponsored by
-          <a href="https://netlify.com" target="_blank">Netlify</a>
+          &copy; 2021 Max Weber
         </p>
       </div>
     </div>

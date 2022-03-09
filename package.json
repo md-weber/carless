@@ -50,7 +50,7 @@
     "retext-syntax-urls": "^3.1.1",
     "retext-usage": "^0.5.0",
     "tailwindcss-dark-mode": "^1.1.7",
-    "unified": "^10.1.0"
+    "unified": "^10.1.2"
   },
   "keywords": [
     "nuxt",
